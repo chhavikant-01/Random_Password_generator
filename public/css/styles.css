@@ -1,0 +1,110 @@
+.label {
+    user-select: none; /* Prevent label text from being selected */
+    cursor: pointer;   /* Change cursor to hand (pointer) on hover */
+}
+/* Style the container */
+.background{
+    background-color: #FFF2D8;
+}
+.container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #EAD7BB;
+}
+
+.option{
+    color: #6A9C89;
+}
+/* Center the header text */
+h1 {
+    text-align: center;
+}
+
+/* Style the form elements */
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-top: 10px;
+}
+
+.form-check {
+    display: inline-block;
+    margin-right: 10px;
+    color: #113946;
+}
+
+/* Style the "Generate Password" button */
+.btn {
+    margin-top: 20px;
+}
+
+/* Style the password label and input field */
+label {
+    display: block;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#password {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Style the "Copy Password" button */
+#copyButton {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+#copyButton:hover {
+    background-color: #0056b3;
+}
+
+/* Additional styling for the range input */
+.form-range {
+    width: 100%;
+}
+
+/* Style the range (horizontal scroll) input */
+.form-range {
+    width: 50%; /* Make it smaller by setting the width */
+    margin-top: 10px;
+    background-color: #f0f0f0; /* Set a background color */
+    border: none;
+    height: 3px; /* Set the height */
+}
+
+/* Customize the appearance of the range thumb and track */
+.form-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 16px; /* Adjust thumb width */
+    height: 16px; /* Adjust thumb height */
+    background-color: #007bff; /* Set thumb color */
+    border: 2px solid #fff; /* Add a border to the thumb */
+    border-radius: 50%; /* Make the thumb a circle */
+    cursor: pointer;
+}
+
+.form-range::-webkit-slider-thumb:active {
+    background-color: #0056b3; /* Thumb color on click */
+}
+
+.form-range::-webkit-slider-runnable-track {
+    background-color: #ccc; /* Set track color */
+    height: 3px; /* Set track height */
+    border: none;
+    border-radius: 2px; /* Add border-radius to the track */
+}
+
